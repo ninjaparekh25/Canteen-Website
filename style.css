@@ -1,0 +1,139 @@
+:root {
+    --primaryColor: #0e6353;
+    --secondaryColor: #ffc107;
+    --whiteColor: #fff;
+    --blackColor: #222;
+    --softGreenColor: #d9f2ee;
+    --darkGreyColor: #a7a7a7;
+    --greyColor: #f5f5f5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2%;
+    background-color:goldenrod;
+    color: var(--whiteColor);
+}
+
+.sidebar-menus {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-menus a , .sidebar-logout a {
+    padding: 5% 8%;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.sidebar-menus a ion-icon , .sidebar-logout a ion-icon {
+    font-size: 30px;
+}
+
+.sidebar-menus a:hover , .sidebar-logout a:hover {
+    background-color:navy;
+    border-radius: 50px;
+}
+
+.main{
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    padding: 2%;
+    background-color:rgba(196, 235, 235, 0.733);
+    margin-left: 250px;
+}
+
+.main-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* will hide menu toggle fisrt, this one will appear on mobile screen later */
+.menu-toggle{
+    display: none;
+}
+
+.search{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--whiteColor);
+    border-radius: 20px;
+}
+
+.search input{
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.search-btn{
+    background-color:orange;
+    color: var(--whiteColor);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.search:hover{
+    box-shadow: rgba(149, 157 , 165, 0.2) 0px 8px 24px;
+}
+
+.search-btn:hover{
+    background-color:blue;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart, .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--whiteColor);
+    font-size: 20px;
+    color: var(--primaryColor);
+    text-decoration: none;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.cart:hover, .user:hover{
+    box-shadow: rgba(149, 157 , 165, 0.2) 0px 8px 24px;
+}
