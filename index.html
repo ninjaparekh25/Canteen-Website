@@ -3,82 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- adding google fonts -->
+    <link rel="stylesheet" href="stylef.css">
+    <!-- Adding Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-    <title>Responsive Canteen WebSite</title>
+    <title>Responsive Canteen Website</title>
 </head>
 <body>
-    <!-- sidebar -->
+    <!-- Sidebar -->
     <div class="sidebar">
-        <!-- logo -->
+        <!-- Logo -->
         <h1 class="logo">Canteen</h1>
-        <!-- list of menu -->
+        <!-- List of menu -->
         <div class="sidebar-menus">
             <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
             <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
             <a href="#"><ion-icon name="person-outline"></ion-icon>Profile</a>
             <a href="#"><ion-icon name="cart-outline"></ion-icon>Cart</a>
             <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
-            <a href="#"><ion-icon name="settings-outline"></ion-icon>Setting</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
         </div>
-        <!-- logout -->
+        <!-- Logout -->
         <div class="sidebar-logout">
             <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
         </div>
     </div>
-    <!-- main -->
+    <!-- Main -->
     <div class="main">
-        <!--main navbar-->
+        <!-- Main navbar -->
         <div class="main-navbar">
-            <!--menu when appear on mobile version-->
+            <!-- Menu toggle for mobile version -->
             <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
-            <!--search bar-->
+            <!-- Search bar -->
             <div class="search">
-                <input type="text" placeholder="What you want to eat ? ">
+                <input type="text" placeholder="What you want to eat?">
                 <button class="search-btn">Search</button>
             </div>
-            <!--profile icon on left side of navbar-->
+            <!-- Profile icons on the left side of navbar -->
             <div class="profile">
                 <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
                 <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
             </div>
         </div>
-        <!--main highlight-->
+        <!-- Main highlight -->
         <div class="main-highlight">
-            <!--title section and arrow-->
+            <!-- Title section and arrows -->
             <div class="main-header">
-                <h2 class="mian-title">Recommendations</h2>
+                <h2 class="main-title">Recommendations</h2>
                 <div class="main-arrow">
                     <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
                     <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
                 </div>
             </div>
-            <!--highlight menu-->
+            <!-- Highlight menu -->
             <div class="highlight-wrapper">
                 <div class="highlight-card">
-                    <img class="highlight-img" src="/ass/samosa.jpg">
+                    <img class="highlight-img" src="/ass/samosa.jpg" alt="Samosa">
                     <div class="highlight-desc">
                         <h4>Samosa</h4>
                         <p>₹20</p>
                     </div>
                 </div>
                 <div class="highlight-card">
-                    <img class="highlight-img" src="/ass/vadapav.jpg">
+                    <img class="highlight-img" src="/ass/vadapav.jpg" alt="Vadapav">
                     <div class="highlight-desc">
                         <h4>Vadapav</h4>
                         <p>₹17</p>
                     </div>
                 </div>
                 <div class="highlight-card">
-                    <img class="highlight-img" src="/ass/Chai.jpg">
+                    <img class="highlight-img" src="/ass/Chai.jpg" alt="Chai">
                     <div class="highlight-desc">
                         <h4>Chai</h4>
                         <p>₹12</p>
                     </div>
                 </div>
                 <div class="highlight-card">
-                    <img class="highlight-img" src="/ass/aloo.jpg">
+                    <img class="highlight-img" src="/ass/aloo.jpg" alt="Aloo Frankie">
                     <div class="highlight-desc">
                         <h4>Aloo Frankie</h4>
                         <p>₹25</p>
@@ -86,9 +86,9 @@
                 </div>
             </div>
         </div>
-        <!--main menus / order-->
+        <!-- Main menus / order -->
         <div class="main-menus">
-            <!--filter section-->
+            <!-- Filter section -->
             <div class="main-filter">
                 <div>
                     <h2 class="main-title">Menu<br>Category</h2>
@@ -105,18 +105,16 @@
                         <p>All Menus</p>
                     </div>
                     <div class="filter-card">
-                        <div class="filter-card">
-                            <div class="filter-icon">
-                                <ion-icon name="fast-food-outline"></ion-icon>
-                            </div>
-                            <p>Fast Foods</p>
+                        <div class="filter-icon">
+                            <ion-icon name="fast-food-outline"></ion-icon>
                         </div>
+                        <p>Fast Foods</p>
                     </div>
                     <div class="filter-card">
                         <div class="filter-icon">
                             <ion-icon name="cafe-outline"></ion-icon>
                         </div>
-                        <p>Bevrage</p>
+                        <p>Beverage</p>
                     </div>
                     <div class="filter-card">
                         <div class="filter-icon">
@@ -128,78 +126,76 @@
                         <div class="filter-icon">
                             <ion-icon name="ice-cream-outline"></ion-icon>
                         </div>
-                        <p>IceCream</p>
+                        <p>Ice Cream</p>
                     </div>
                 </div>
             </div>
             <hr class="divider">
-            <!--list of food menus-->
+            <!-- List of food menus -->
             <div class="main-detail">
                 <h2 class="main-title">Choose Order</h2>
                 <div class="detail-wrapper">
                     <div class="detail-card">
-                        <img class="detail-img" src="/ass/samosa.jpg">
+                        <img class="detail-img" src="/ass/samosa.jpg" alt="Samosa">
                         <div class="detail-desc">
                             <div class="detail-name">
-                              <h4 class="food-name">Samosas</h4>
-                              <p class="detail-sub">Crispy, spiced perfection wrapped in golden pastry—samosas are a bite-sized delight.</p>
-                              <p class="price">₹20</p>
+                                <h4 class="food-name">Samosas</h4>
+                                <p class="detail-sub">Crispy, spiced perfection wrapped in golden pastry—samosas are a bite-sized delight.</p>
+                                <p class="price">₹20</p>
                             </div>
                             <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
                         </div>
                     </div>
                     <div class="detail-card">
-                        <img class="detail-img" src="/ass/vadapav.jpg">
+                        <img class="detail-img" src="/ass/vadapav.jpg" alt="Vadapav">
                         <div class="detail-desc">
                             <div class="detail-name">
-                              <h4 class="food-name">Vadapav</h4>
-                              <p class="detail-sub">Crispy, spiced perfection wrapped in golden pastry—samosas are a bite-sized delight.</p>
-                              <p class="price">₹17</p>
+                                <h4 class="food-name">Vadapav</h4>
+                                <p class="detail-sub">Crispy, spiced perfection wrapped in golden pastry—samosas are a bite-sized delight.</p>
+                                <p class="price">₹17</p>
                             </div>
                             <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
                         </div>
                     </div>
                     <div class="detail-card">
-                        <img class="detail-img" src="/ass/aloo.jpg">
+                        <img class="detail-img" src="/ass/aloo.jpg" alt="Aloo Frankie">
                         <div class="detail-desc">
                             <div class="detail-name">
-                              <h4 class="food-name">Frankie</h4>
-                              <p class="detail-sub">Crispy, spiced perfection wrapped in golden pastry—samosas are a bite-sized delight.</p>
-                              <p class="price">₹25</p>
+                                <h4 class="food-name">Frankie</h4>
+                                <p class="detail-sub">Crispy, spiced perfection wrapped in golden pastry—samosas are a bite-sized delight.</p>
+                                <p class="price">₹25</p>
                             </div>
                             <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
                         </div>
                     </div>
-                </div>
-                <div class="detail-card">
-                    <img class="detail-img" src="/ass/Chai.jpg">
-                    <div class="detail-desc">
-                        <div class="detail-name">
-                          <h4 class="food-name">Chai</h4>
-                          <p class="detail-sub">Chai is a traditional Indian tea that's beloved for its aromatic blend of spices and strong, flavorful taste.</p>
-                          <p class="price">₹15</p>
+                    <div class="detail-card">
+                        <img class="detail-img" src="/ass/Chai.jpg" alt="Chai">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4 class="food-name">Chai</h4>
+                                <p class="detail-sub">Chai is a traditional Indian tea that's beloved for its aromatic blend of spices and strong, flavorful taste.</p>
+                                <p class="price">₹15</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
                         </div>
-                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
                     </div>
-                </div>
-                <div class="detail-card">
-                    <img class="detail-img" src="/ass/Chole.jpg">
-                    <div class="detail-desc">
-                        <div class="name">
-                            <h4 class="food-name">Chole</h4>
-                            <p class="detail-sub">Chole, also known as Chana Masala, is a popular and flavorful dish from Indian cuisine</p>
-                            <p class="price">₹50</p>
+                    <div class="detail-card">
+                        <img class="detail-img" src="/ass/Chole.jpg" alt="Chole">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4 class="food-name">Chole</h4>
+                                <p class="detail-sub">Chole, also known as Chana Masala, is a popular and flavorful dish from Indian cuisine.</p>
+                                <p class="price">₹50</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
                         </div>
-                        <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="index.js"></script>
+    <!-- Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicon.js"></script>
 </html>
